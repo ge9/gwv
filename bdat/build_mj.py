@@ -19,7 +19,7 @@ try:
 except ImportError:
     from urllib.request import urlretrieve
 
-from strict_xlsx import iterxlsx
+from .strict_xlsx import iterxlsx
 
 logging.basicConfig()
 log = logging.getLogger(__name__)
